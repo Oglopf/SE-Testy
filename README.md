@@ -10,18 +10,16 @@ git checkout -b <first initial and lastname>_se_questions
 # example: git checkout -b travert_se_questions
 bundle install # installs minitest locally
 ```
-At this point you can begin to answer the questions. _Do not run the tests during the 
-interview._
+At this point you can begin to answer the questions. 
 
 ## Resources
-Please use only the following resources during the interview:
+Try to allow yourself only the following resources during the prep to simulated a real environment:
 
 - [Ruby API Documentation](https://rubyapi.org)
 - [Ruby Language Documentation](https://docs.ruby-lang.org/en/)
 
 # Finishing
-When you are complete, simply `push` your branch:
+To run the tests on solutions you've provided so far, just run:
 ```bash
-git push origin <first initial last name>_se_questions
+ruby tests/test.rb
 ```
-And that's it!
